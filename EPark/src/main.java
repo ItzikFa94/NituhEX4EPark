@@ -1,7 +1,9 @@
+import java.util.ArrayList;
 import java.util.Scanner;
-
 public class main {
     public static void main(String[] args) {
+        ArrayList<Guardian> guardians;
+        ArrayList<Device>devices;
         Scanner in = new Scanner(System.in);
         boolean run = true;
         int option;
